@@ -1,0 +1,12 @@
+The result of executing the following code will print out the number ten on the first line followed by the number eleven 
+on a separate line. The code will then finally print the statement “Final Report:” on a third line followed by the numbers 
+twelve, fifteen, and eighteen to finish. The reason for this is at the start of the program a list is created that contains
+ the numbers ten, eleven, twelve, thirteen, fourteen, fifteen, seventeen, eighteen, nineteen, and twenty in that order. It 
+then initializes a counter variable equal to zero. The items in the list are then looped using a for loop specifically to 
+increment the counter by one and then check if the counter is less than three. If the counter is then it prints the current
+ number to the console, resulting in the ten and eleven we see in the first two lines of output. Thus every other value after 
+is then ignored by the program and moves on to printing the final report. Once the loop is finished the program specifically 
+prints three items the third, sixth, and eighth elements of the list. The corresponding indexes two, five, and seven reciprocate 
+the values stated previously, that being twelve, fifteen, and eighteen. These indexes are then placed in front of the string and 
+separated by commas before being printed on the third and final line. With this, we can figure that the first two values will 
+always be printed as well as the three specific index elements granted there is a minimum of eight present.
